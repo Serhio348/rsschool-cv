@@ -7,3 +7,8 @@
 **Telegram:** @siarhei_sidarovich    
 [LinkedIn](www.linkedin.com/in/siarhei-sidarovich-b09759182)    
 ********************************
+### Abaut me
+I am a frontend developer(graduate) with one years of experience.
+Strong creative and analytical skills. Team player with an eye for
+detail.
+*************************

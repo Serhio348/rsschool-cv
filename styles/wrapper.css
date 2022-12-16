@@ -16,7 +16,7 @@
   .user-img {
     width: 330px;
     height: 330px;
-    background-image: url(../img/Photo\ BG.jpg);
+    background-image: url(../image/Photo\ BG.jpg);
     background-size: cover;
    }
   .title-user {
@@ -91,6 +91,7 @@
   
   #content {
     display: flex;
+    
   }
   
   span {
@@ -102,6 +103,7 @@
     color: #ffffff;
     animation: .1s 0s 1 text normal both running linear;
     display: block;
+    
   }
   
   @keyframes text {

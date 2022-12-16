@@ -44,7 +44,7 @@
     margin-left: 5px;
   }
   
-  p {
+  h3 {
     padding: 26px 53.25px 26px 53.75px;
     width: 330px;
     height: 72px;
@@ -90,7 +90,8 @@
   }
   
   #content {
-    display: flex;
+    display: block;
+    width: 800px;
     
   }
   
@@ -102,7 +103,7 @@
     line-height: 42px;
     color: #ffffff;
     animation: .1s 0s 1 text normal both running linear;
-    display: block;
+     
     
   }
   

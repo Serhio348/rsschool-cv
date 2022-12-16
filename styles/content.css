@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+.content{
+    max-width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(../img/wallpaperbetter.jpg) ;
+    position: relative;
+    padding: 10px 50px;
+    }
+.content::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background:rgba(46, 61, 86, 0.6);
+    left: 0;
+    top: 0;
+}

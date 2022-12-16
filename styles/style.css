@@ -1,6 +1,6 @@
 @import url('./content.css');
 @import url('./header.css');
-
+@import url('./wrapper.css');
 
 * {
     margin: 0;

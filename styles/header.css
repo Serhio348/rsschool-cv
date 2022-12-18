@@ -9,6 +9,7 @@
   .header-container {
     display: flex;
     justify-content: end;
+    
   }
   .header-nav {
     display: flex;

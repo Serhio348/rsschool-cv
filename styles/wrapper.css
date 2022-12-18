@@ -2,7 +2,7 @@
   z-index: 222;
   position: relative;
   display: flex;
-  padding: 0 150px;
+  padding: 0 10px;
   margin-top: 50px;
 }
 
@@ -63,8 +63,7 @@ h3 {
 }
 .wrapper-info {
   margin-left: 35px;
-  max-width: 850px;
-}
+  }
 .title-info {
   padding: 25px 45px;
   background: #333333;
@@ -88,26 +87,26 @@ h3 {
   color: #ffffff;
 }
 .wrapper-item {
-  width: 850px;
-  height: 180px;
+ height: 180px;
 }
 #content {
   display: flex;
 }
 #hobby {
   display: flex;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 #about {
   display: flex;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 span {
+  
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 700;
-  font-size: 29px;
+  font-size: 20px;
   line-height: 42px;
   color: #ffffff;
   animation: 0.1s 0s 1 text normal both running linear;

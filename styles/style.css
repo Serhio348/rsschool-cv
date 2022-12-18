@@ -1,0 +1,134 @@
+@import url('./content.css');
+@import url('./header.css');
+@import url('./awesome.css');
+@import url('./footer.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  max-width: 1170px;
+  height: 100vh;
+  z-index: 222;
+  background: transparent;
+  margin: 0 auto;
+}
+
+#burger,
+[for='burger'] {
+  display: none;
+}
+
+@media (max-width: 1275px) {
+  .awesome-info {
+    max-width: 500px;
+  }
+}
+@media (max-width: 1010px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 788px) {
+  .wrapper-content {
+    margin-top: 45px;
+  }
+  .awesome-wrap {
+    top: 100px;
+  }
+}
+@media (max-width: 710px) {
+  .awesome-wrap {
+    display: block;
+    height: 100%;
+  }
+  .title-info {
+    display: none;
+  }
+  .awesome-info {
+    margin: 0;
+    max-width: 390px;
+  }
+  .container {
+    max-width: 390px;
+    height: 150vh;
+  }
+  .wrapper-button {
+    margin: 10px auto;
+  }
+}
+@media (max-width: 600px) {
+  [for='burger'] {
+    display: block;
+    position: fixed;
+    font-size: 3rem;
+    text-align: center;
+    left: 10px;
+    top: 10px;
+    color: white;
+  }
+  [for='burger']::before {
+    content: '≡';
+  }
+  .header-nav {
+    display: none;
+  }
+  #burger:checked + label + nav {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.9s linear;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 40px 0;
+    list-style: none;
+    text-align: center;
+    user-select: none;
+    animation: show 0.9s ease;
+  }
+  @keyframes show {
+    0% {
+      opacity: 0;
+     
+    }
+    100% {
+      opacity: 0.6;
+     
+    }
+  }
+  .link-header {
+    display: block;
+    padding: 12px 24px;
+    color: #ffffff;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  #burger:checked + [for='burger']::before {
+    content: '×';
+  }
+}
+@media (max-width: 450px) {
+  .wrapper-button {
+    width: 13.9rem;
+  }
+  h3{
+    width: 290px;
+  height:62px;
+  font-size: 0.9rem;
+  margin-top: 0;
+  }
+  .footer-wrap {
+    max-width: 450px;
+  }
+}

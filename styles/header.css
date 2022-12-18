@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   padding: 30px 35px 0px;
-  width: 850px;
+  max-width: 850px;
   height: 61.39px;
   flex: none;
   order: 1;

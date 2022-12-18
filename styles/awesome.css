@@ -6,8 +6,7 @@
   background-position: center;
   background-image:url(../image/wallpaperbetter.jpg) ;
   position: relative;
-  padding: 0px 50px;
-}
+ }
 .awesome::after{
   content: "";
   width: 100%;
@@ -19,9 +18,7 @@
   }
 .awesome-wrap{
   display: flex;
-  position: absolute;
-  top:220px;
-  padding: 0 15px;
+  padding: 150px 15px;
 }
 .awesome-user {
   max-width: 390px;
@@ -32,7 +29,7 @@
   
 }
 .user-img {
-  width: 330px;
+  max-width: 330px;
   height: 330px;
   background-image: url(../image/Photo\ BG.jpg);
   background-size: cover;
@@ -43,7 +40,7 @@
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 1.9rem;
   line-height: 33px;
   margin: auto;
   color: #999999;
@@ -73,14 +70,16 @@ h3 {
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
   text-align: center;
   align-items: center;
   margin-top: 15px;
 }
-.wrapper-info {
-  margin-left: 35px;
+.awesome-info {
+  margin-left: 15px;
+  max-width: 550px;
+  padding: 10px;
   }
 .title-info {
   padding: 25px 45px;
@@ -106,16 +105,17 @@ h3 {
 }
 .wrapper-item {
  height: 180px;
+max-width: 850px;
+word-break: break-all;
+
 }
-#content {
-  display: flex;
-}
+
 #hobby {
-  display: flex;
+  
   margin-top: 15px;
 }
 #about {
-  display: flex;
+  
   margin-top: 15px;
 }
 
@@ -124,8 +124,7 @@ span {
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 42px;
+  font-size: 1.25rem;
   color: #ffffff;
   animation: 0.1s 0s 1 text normal both running linear;
 }
@@ -141,12 +140,12 @@ span {
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.2rem;
   line-height: 26px;
   display: flex;
   align-items: center;
   color: #ffffff;
-  margin-top: 45px;
+  margin-top: 15px;
 }
 
 .wrapper-button {

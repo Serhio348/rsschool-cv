@@ -10,10 +10,12 @@
 .footer-wrap {
   display: flex;
   align-items: center;
-  width: 1170px;
- justify-content: space-between;
+  max-width: 1170px;
+  justify-content: space-between;
 }
-
+.footer-logo{
+    margin-right: 150px;
+}
 .footer-logo-item {
   list-style: none;
   display: flex;
@@ -86,4 +88,5 @@
 
   img {
     width: 120px;
+    
   }

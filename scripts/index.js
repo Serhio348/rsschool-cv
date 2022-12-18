@@ -1,7 +1,10 @@
 let text1 = 'I am 35. I live in Brest, Belarus. I develop and manage websites for 1 years.'
 let text2 = 'Im an adventure lover taking my good old Land Cruiser to off-road trails'
 let text3 = 'Im a Marvel fan and a father of 2 awesome kids!'
+
 let content = document.getElementById('content');
+let about = document.getElementById('about');
+let hobby = document.getElementById('hobby');
 
 for (let i in [...text1]) {
     let letter = document.createElement('span')
@@ -11,7 +14,7 @@ for (let i in [...text1]) {
     }
     letter.style.animationDelay = i / 100 + 's'
     content.appendChild(letter)
-    
+
 }
 
 setTimeout(() => {
@@ -22,8 +25,8 @@ setTimeout(() => {
             letter.style.margin = 'auto 3px'
         }
         letter.style.animationDelay = i / 100 + 's'
-        content.appendChild(letter)
-      
+        about.appendChild(letter)
+
     }
 }, 2000)
 
@@ -35,8 +38,9 @@ setTimeout(() => {
             letter.style.margin = 'auto 3px'
         }
         letter.style.animationDelay = i / 100 + 's'
-        content.appendChild(letter)
-        
+        hobby.appendChild(letter)
+
+
     }
 }, 4000)
 

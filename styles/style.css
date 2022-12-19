@@ -1,8 +1,11 @@
-@import url('./content.css');
-@import url('./header.css');
-@import url('./awesome.css');
-@import url('./footer.css');
-@import url('./skills.css');
+@import url("./content.css");
+@import url("./header.css");
+@import url("./awesome.css");
+@import url("./footer.css");
+@import url("./skills.css");
+@import url("./portfolio.css");
+@import url("./contacts.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +24,7 @@
 }
 
 #burger,
-[for='burger'] {
+[for="burger"] {
   display: none;
 }
 
@@ -29,10 +32,24 @@
   .awesome-info {
     max-width: 500px;
   }
+  .contacts {
+    max-width: 970px;
+  }
+  .form-content {
+    justify-content: center;
+  }
 }
 @media (max-width: 1010px) {
 }
 @media (max-width: 992px) {
+  .contacts {
+    max-width: 750px;
+  }
+  .portfolio-container{
+    display: block;
+    padding: 130px 0;
+    
+  }
 }
 @media (max-width: 788px) {
   .wrapper-content {
@@ -40,6 +57,9 @@
   }
   .awesome-wrap {
     top: 100px;
+  }
+  .contact {
+    max-width: 536px;
   }
 }
 @media (max-width: 710px) {
@@ -56,14 +76,14 @@
   }
   .container {
     max-width: 390px;
-    height: 150vh;
+    height: 195vh;
   }
   .wrapper-button {
     margin: 10px auto;
   }
 }
 @media (max-width: 600px) {
-  [for='burger'] {
+  [for="burger"] {
     display: block;
     position: fixed;
     font-size: 3rem;
@@ -72,11 +92,16 @@
     top: 10px;
     color: white;
   }
-  [for='burger']::before {
-    content: '≡';
+  [for="burger"]::before {
+    content: "≡";
   }
   .header-nav {
     display: none;
+  }
+  .portfolio-container{
+    display: block;
+    padding: 130px 0;
+    
   }
   #burger:checked + label + nav {
     display: flex;
@@ -96,37 +121,35 @@
   @keyframes show {
     0% {
       opacity: 0;
-     
     }
     100% {
       opacity: 0.6;
-     
     }
   }
   .link-header {
     display: block;
     padding: 12px 24px;
     color: #ffffff;
-    font-family: 'Source Sans Pro';
+    font-family: "Source Sans Pro";
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     text-decoration: none;
   }
 
-  #burger:checked + [for='burger']::before {
-    content: '×';
+  #burger:checked + [for="burger"]::before {
+    content: "×";
   }
 }
 @media (max-width: 450px) {
   .wrapper-button {
     width: 13.9rem;
   }
-  h3{
+  h3 {
     width: 290px;
-  height:62px;
-  font-size: 0.9rem;
-  margin-top: 0;
+    height: 62px;
+    font-size: 0.9rem;
+    margin-top: 0;
   }
   .footer-wrap {
     max-width: 450px;

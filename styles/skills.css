@@ -1,0 +1,146 @@
+.skills {
+  max-width: 100%;
+  height: 100%;
+  background-color: #ecf1f4;
+}
+
+.skills-title {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+  justify-content: center;
+}
+.skills-container {
+  padding: 150px 15px;
+}
+.skills-line{
+  margin-top: 24px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.skills-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 150px;
+  height: 600px;
+}
+.skills-wrap{
+  padding: 25px 0;
+}
+.item{
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+align-items: center;
+text-align: right;
+text-transform: uppercase;
+color: #333333;
+}
+.HTML::after{
+  
+  content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background-color:#b40000;
+    margin: 0.6em 0 0 1.5em;
+    transition: width 2s ease-out; /*задаём время анимации*/
+}
+.HTML:hover:after,
+.HTML:focus:after {
+  width: 90%;
+  content:"90%";
+   }
+ .CSS::after{
+  content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background-color:#b40000;
+    margin: 0.6em 0 0 1.5em;
+    transition: width 2s ease-out; /*задаём время анимации*/
+}
+.CSS:hover:after,
+.CSS:focus:after {
+  width: 85%;
+  content:"85%";
+}
+.JavaScript::after{
+  content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background-color:#b40000;
+    margin: 0.6em 0 0 1.5em;
+    transition: width 2s ease-out; /*задаём время анимации*/
+}
+.JavaScript:hover:after,
+.JavaScript:focus:after {
+  width: 70%;
+  content:"70%";
+}
+.React::after{
+  content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background-color:#b40000;
+    margin: 0.6em 0 0 1.5em;
+    transition: width 2s ease-out; /*задаём время анимации*/
+}
+.React:hover:after,
+.React:focus:after {
+  width: 50%;
+  content:"50%";
+}
+.Redux::after{
+  content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background-color:#b40000;
+    margin: 0.6em 0 0 1.5em;
+    transition: width 2s ease-out; /*задаём время анимации*/
+}
+.Redux:hover:after,
+.Redux:focus:after {
+  width: 50%;
+  content:"50%";
+}
+.TypeScript::after{
+  content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background-color:#b40000;
+    margin: 0.6em 0 0 1.5em;
+    transition: width 2s ease-out; /*задаём время анимации*/
+}
+.TypeScript:hover:after,
+.TypeScript:focus:after {
+  width: 50%;
+  content:"50%";
+}
+.Github::after{
+  content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background-color:#b40000;
+    margin: 0.6em 0 0 1.5em;
+    transition: width 2s ease-out; /*задаём время анимации*/
+}
+.Github:hover:after,
+.Github:focus:after {
+  width: 80%;
+  content:"80%";
+}
+
